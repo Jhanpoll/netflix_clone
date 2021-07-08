@@ -23,12 +23,13 @@ html{
     justify-content: space-between;
     align-items: center;
 }
-.header__img{
+.header span{
 
     width: 80px;
-    height: 20px;
+    height: 30px;
     margin-left: 20px;
-    
+    color: white;
+    font-size: 2.4rem;
 }
 
 .main__menu{
@@ -119,7 +120,10 @@ html{
     padding: 30px;
     position: relative;
 }
-
+.carousel h2{
+    color: white;
+    font-size: 2.8rem;
+}
 .carousel-container{
     
     /* el white-space: nowrap permite que el scroll se extienda
