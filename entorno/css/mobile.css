@@ -1,0 +1,11 @@
+.carousel-fm-container{
+    
+    /* el white-space: nowrap permite que el scroll se extienda
+    hacia la derecha;*/
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap ;
+    margin: 70px 0;
+    padding-bottom: 10px;
+    align-items: center;
+}
