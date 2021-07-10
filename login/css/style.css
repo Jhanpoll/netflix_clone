@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 62.5%;
+}
+body{
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/b8e09d9c-d1e7-4800-afd9-810e41ace684/073d28b5-54f7-4f70-a4cc-833775e34b32/PE-es-20210607-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+}
+.login{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.login__container {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    /* opacity: 0.3; */
+}
+.login__container h1{
+    font-size: 2.4rem;
+    color: white;
+    padding: 30px;
+}
+.login__container--form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__container--form .input{
+    width: 25vw;
+    height: 50px;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.login__container--form .button{
+    width: 25vw;
+    height: 50px;
+    background-color: #e50914;
+    color: white;
+    font-weight: 600;
+    font-size: 2.0rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.login__container--form .complemento{
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    align-self: flex-start;
+    padding: 20px 0;
+}
+.login__container--form .complemento a{
+    color: white;
+}
+.login__container--social-media{
+    display: flex;
+    color: white;
+    width: 25vw;
+    height: 30px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.login__container--social-media div img{
+    width: 30px;
+    margin-right: 10px;
+}
+.login__container--social-media div{
+    font-size: 1.3rem;
+
+}
+
