@@ -23,7 +23,8 @@ body{
     background-color: black;
     flex-direction: column;
     align-items: center;
-    /* opacity: 0.3; */
+    opacity: 0.9;
+    border-radius: 10px;
 }
 .login__container h1{
     font-size: 2.4rem;
@@ -65,9 +66,22 @@ body{
     color:white;
     align-self: flex-start;
     padding: 20px 0;
+    align-items: center;
+}
+.login__container--form .complemento label {
+    font-size: 1.4rem;
+ 
+}
+.login__container--form .complemento label input {
+    margin-right: 5px;
 }
 .login__container--form .complemento a{
     color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+.login__container--form .complemento a:hover{
+    text-decoration: underline;
 }
 .login__container--social-media{
     display: flex;
@@ -82,7 +96,77 @@ body{
     margin-right: 10px;
 }
 .login__container--social-media div{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
 
 }
+.login__container--register{
+    color: white;
+    font-size: 1.4rem;
+    padding: 20px 0 ;
+    justify-content: flex-start;
+}
 
+.login__container--register .suscribirse  {
+    text-decoration: none;
+    color: white;
+}
+.login__container--register .suscribirse:hover{
+    text-decoration: underline;
+}
+.login__container--register .mas-info {
+    color: #0071eb;
+    text-decoration: none;
+}
+.login__container--register .mas-info:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    flex-direction: column;
+    justify-content: space-around;
+    opacity: 0.8;
+
+}
+.footer p{
+    color: white;
+    font-size: 2.4rem;
+    margin-left: 80px;
+}
+footer p a {
+    color: #0071eb;
+    text-decoration: none;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
+.footer .footer--links-information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 2.4rem;
+}
+.footer .footer--links-information .item {
+    display: flex;
+    flex-direction: column;
+   
+}
+.footer .footer--links-information .item a{
+    text-decoration: none;
+}
+.footer .footer--links-information .item a:hover{
+    text-decoration: underline;
+}
+.footer .footer--links-information a{
+    color: white;
+}
+.footer .lenguage {
+    width: 100px;
+    height: 50px;
+    margin-left: 80px;
+}
